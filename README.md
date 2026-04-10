@@ -22,7 +22,7 @@ Written in C.
 ## Accompanying source code
 - Module for fingerprint scanner: https://github.com/leftboardcuttenstring/stm32_hal_r557_driver/tree/rig_submodule
 - Module for SD memory card: none
-- Module for LCD screen: none
+- Module for LCD screen: the library is used: https://github.com/Floyd-Fish/ST7789-STM32
 - Module for init the device as a HID device: none
 
 ## Project Structure

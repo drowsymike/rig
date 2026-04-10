@@ -1,9 +1,18 @@
-#pragma once
+#ifndef __MAIN_H
+#define __MAIN_H
 
-#include <stdint.h>
-#include <stdbool.h>
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 #include "stm32f4xx_hal.h"
 
-/* Прототип clock-функции */
-void SystemClock_Config(void);
+void spi_init(void);
+void SystemClock_Config();
+void dc_res_blk_init(void);
+
+#ifdef __cplusplus
+}
+#endif
+
+#endif
