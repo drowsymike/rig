@@ -11,6 +11,8 @@ void spi_init(void);
 void SystemClock_Config();
 void dc_res_blk_init(void);
 
+void Error_Handler(void);
+
 #ifdef __cplusplus
 }
 #endif

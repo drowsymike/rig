@@ -38,11 +38,18 @@ int main(void) {
   SystemClock_Config();
   spi_init();
   
+  
+  
   ST7789_Init();
 
   while(1) {
     
   }
+}
+
+//dummy for the usb and pcd submodule
+void Error_Handler() {
+
 }
 
 void _init(void) {}
